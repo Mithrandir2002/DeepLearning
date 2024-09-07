@@ -31,4 +31,9 @@ plt.scatter(loanSalary, loanWorkingTime, c="red")
 plt.title("Loan Decision base on Salary and Working Time")
 plt.xlabel("Salary")
 plt.ylabel("Working Time")
+
+x = np.linspace(0, 10)
+y = -0.25 * x + 2.25
+plt.plot(x, y)
+
 plt.show()
